@@ -21,7 +21,10 @@
  *
  * CTxHandler class
  */
-#pragma once
+
+#ifndef BUSMASTER_APPLICATION_TXHANDLER_H_
+#define BUSMASTER_APPLICATION_TXHANDLER_H_
+
 #include "TxWindow/TxWnd_Extern.h"
 
 class CTxHandler {
@@ -53,3 +56,5 @@ public:
     void vSetTxStopFlag(BOOL bStartStop);
     BOOL bGetTxStopFlag(void);
 };
+
+#endif // BUSMASTER_APPLICATION_TXHANDLER_H_
